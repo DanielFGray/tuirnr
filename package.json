@@ -1,0 +1,20 @@
+{
+  "name": "@local/tuirnr",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "tuirnr": "bun src/tuirnr.tsx"
+  },
+  "dependencies": {
+    "@opentui/core": "0.1.67",
+    "@opentui/solid": "0.1.67",
+    "ansi-regex": "^6.2.2",
+    "ghostty-opentui": "^1.3.11",
+    "solid-js": "1.9.10"
+  },
+  "devDependencies": {
+    "bun-types": "^1.3.5"
+  }
+}
